@@ -1,0 +1,25 @@
+/* Center the table */
+.w3-card.table {
+  margin: 0 auto;
+  width: 80%; /* Adjust the width as needed */
+}
+
+/* Apply the same styles as the original table */
+.w3-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2%;
+  color: rgb(98, 120, 120);
+}
+
+.w3-table th,
+.w3-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.w3-table th {
+  background-color: #f2f2f2;
+  color: #000;
+}
